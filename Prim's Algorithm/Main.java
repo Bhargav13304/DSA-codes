@@ -22,7 +22,7 @@ public class Main {
         graph.addWeightedUndirectedEdge(2, 3, 6);   // C-D
         graph.addWeightedUndirectedEdge(3, 4, 4);   // D-E
 
-        // Step 4: Run Prim's Algorithm from node A (index 0)
+        // Step 4: Run the Prim's Algorithm from node A (index 0)
         System.out.println("Running Prim's Algorithm on the graph:");
         graph.prims(nodeList.get(0));
     }
